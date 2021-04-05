@@ -5,3 +5,32 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+}
+
+.news__list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+}
+
+.news__item {
+    display: flex;
+    border-left: 1px solid #888888;
+    box-shadow: 3px 3px 2px #888888;
+    border-top: 5px solid blue;
+    align-items: center;
+    padding: 15px;
+}
+
+li {
+    display: inline-block;
+}
+
+body {
+    padding: 50px;
+}
