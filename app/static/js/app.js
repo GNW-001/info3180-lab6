@@ -60,7 +60,7 @@ const NewsList = {
             let self = this;
             fetch('https://newsapi.org/v2/everything?q=' + self.searchTerm + '&language=en', {
                 headers: {
-                    'Authorization': 'Bearer 0c7a0e013c144f1fb390cca9ec6f4e14'
+                    'Authorization': 'Bearer '
                 }
             })
                 .then(function (response) {
